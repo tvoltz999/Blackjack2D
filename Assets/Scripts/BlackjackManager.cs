@@ -257,7 +257,7 @@ public class BlackjackManager : MonoBehaviour {
         GameObject.Find("Dealer Hand").transform.GetChild (0).gameObject.SetActive(false);
         GameObject.Find("Dealer Hand").transform.GetChild (1).gameObject.SetActive(false);
 
-    //} // may need to delete this bracket
+
 
         dealerPointsText.text = "Dealer Points: ";
 
